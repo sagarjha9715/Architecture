@@ -1,0 +1,54 @@
+.contain
+{
+    box-shadow: 10px 5px 3px rgba(0, 0, 0, 0.19);
+}
+
+.navi2:hover
+{
+   display: block;
+   background-color: grey;
+   width: auto;
+   height:auto;
+   opacity: 0.5;
+   
+}
+
+.navi3
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
+
+
+.back1
+{
+    background-image: url("architect.jpg");
+    height:700px;
+    background-size: cover;
+}
+
+.BR{
+
+}
+
+.HR
+{
+    opacity: 0.1;
+}
+
+.House
+{
+  margin-right: 5px; 
+  margin-bottom: 5px;
+}
+
+.btn
+{
+    width: 300px;
+}
+
+.btn:hover
+{
+    opacity: 0.4;
+}
