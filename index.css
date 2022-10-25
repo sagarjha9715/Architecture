@@ -1,7 +1,66 @@
+
+. *
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+}
+
 .contain
 {
     box-shadow: 10px 5px 3px rgba(0, 0, 0, 0.19);
 }
+
+.symbol
+{
+    padding-top: 250px;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+#BR
+{
+    display: inline;
+    background-color: black;
+    width: auto;
+    height: auto;
+    padding:15px;
+    opacity: 0.7;
+    
+}
+.contact
+{
+    margin-top: 200px;
+}
+
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+
+
+
+
 
 .navi2:hover
 {
@@ -9,32 +68,29 @@
    background-color: grey;
    width: auto;
    height:auto;
-   opacity: 0.5;
+   opacity: 1.0;
+   font-weight: bold;
+
    
 }
-
-.navi3
-{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: small;
-}
-
-
-
-.back1
+.bg-image
 {
     background-image: url("architect.jpg");
-    height:700px;
+    height: 80vh;
     background-size: cover;
+
 }
 
-.BR{
-
+.bg-dark
+{
+    text-align: center;
 }
 
 .HR
 {
     opacity: 0.1;
+    
+    
 }
 
 .House
@@ -51,4 +107,29 @@
 .btn:hover
 {
     opacity: 0.4;
+}
+
+.btn-outline-secondary
+{
+  width: 100%;
+}
+
+.black-sign
+{
+ 
+  background-color: black;
+  color: white;
+  position:relative;
+  width: 60%;
+  height: auto;
+  opacity: 0.7;
+  top: 25px;
+  text-align: center;
+  
+  
+}
+
+.difference
+{
+  margin-top: 100px;
 }
